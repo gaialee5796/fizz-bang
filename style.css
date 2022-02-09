@@ -11,6 +11,9 @@
 
 h1 {
   font-family: "Yellowtail", cursive;
+  color: aliceblue;
+  font-size: 4rem;
+  text-shadow: navy 0.1rem 0.1rem 0.2rem;
 }
 
 .arrow {
