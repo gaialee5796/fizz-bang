@@ -1,0 +1,51 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.beer {
+  background-image: url("https://images.pexels.com/photos/1672304/pexels-photo-1672304.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Yellowtail", cursive;
+}
+
+.arrow {
+  width: 100px;
+}
+
+.left {
+  transform: rotate(-90deg);
+}
+
+.right {
+  transform: rotate(90deg);
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.answer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  border-radius: 20px;
+  margin: 4rem;
+  padding: 1rem;
+  font-size: 2rem;
+  background-color: black;
+  background-color: #00a652;
+  color: white;
+  box-shadow: 2px 2px 1px grey;
+  cursor: pointer;
+}
